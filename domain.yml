@@ -10,15 +10,18 @@ intents:
   - bot_challenge
   - supply_contact_info
   - informative
+  - ask_question
 
 slots:
   name:
     type: text
+    influence_conversation : false
     mappings:
       - type: from_entity
         entity: name
   email:
     type: text
+    influence_conversation : false
     mappings:
       - type: from_entity
         entity: email
@@ -53,6 +56,8 @@ responses:
   utter_acknowledge_provided_info:
   - text: Thanks {name} for provided your info!
 
+actions:
+  - action_query_rag
 
 session_config:
   session_expiration_time: 60

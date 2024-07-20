@@ -11,3 +11,8 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: When user gives query or ask question
+  steps:
+  - intent : ask_question
+  - action : action_query_rag

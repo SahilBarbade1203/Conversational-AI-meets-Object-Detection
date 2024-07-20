@@ -107,7 +107,35 @@ nlu:
 - intent: informative
   examples: |
     - hey i want register.
-    - hello i am okk and i want some information.
+    - hey i want to give credentials.
+    - i am giving some information.
+
+- intent: ask_question
+  examples: |
+    - what is minor?
     - hi i need to know something.
+    - hello i am okk and i want some information.
+    - What is mean by ug?
+    - Can you explain the concept of minors?
+    - Tell me about the undergraduate program.
+    - What does UG stand for?
+    - Could you provide details on minors?
+    - I have a question about the rulebook.
+    - What is mentioned in the ug rulebook?
+    - What are the requirements for a minor?
+    - Can you explain what minors are in this context?
+    - I need information on minors.
+    - What do minors mean in the rulebook?
+    - Please provide details on the UG rulebook.
+    - I need some information about UG.
+    - Can you clarify what UG means?
+    - What is the significance of minors in the program?
+    - How can I get a minor in my course?
+    - Explain the concept of minors according to the rulebook.
+    - What does the rulebook say about UG?
+    - Hi, I need some details on UG programs.
+    - Can you help me understand minors in the rulebook?
+    - What are the UG guidelines?
+    - Give me some details about the undergraduate rules.
   
 
