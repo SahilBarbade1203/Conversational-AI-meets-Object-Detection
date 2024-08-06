@@ -5,7 +5,7 @@
 # https://rasa.com/docs/rasa/custom-actions
 # actions/actions.py
 
-api_key = "AIzaSyBkxwWO74DmFDgvXwAGPUvwymTRhoYWrtM"
+api_key = "---your api_key----"
 
 import os
 from rasa_sdk import Action, Tracker
