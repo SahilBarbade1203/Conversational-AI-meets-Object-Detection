@@ -8,7 +8,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 import chromadb
 
 # Set Hugging Face token
-os.environ["HUGGINGFACE_API_TOKEN"] = "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"
+os.environ["HUGGINGFACE_API_TOKEN"] = "--your api_key---"
 
 # Initialize Hugging Face embeddings
 embedding_function = HuggingFaceEmbeddings()
